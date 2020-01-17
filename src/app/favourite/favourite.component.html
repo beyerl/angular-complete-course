@@ -1,0 +1,8 @@
+<span 
+[ngClass]="{
+  'glyphicon glyphicon-star' : isSelected,
+  'glyphicon glyphicon-star-empty' : !isSelected
+}" 
+(click)="onLikeClick()"
+(change)="onFavouriteChanged()"
+></span>
